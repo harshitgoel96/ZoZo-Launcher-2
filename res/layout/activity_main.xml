@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.harshit.zozo2.MainActivity" >
+
+ 
+
+        <GridView
+            android:id="@+id/gridBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:verticalSpacing="0dp"
+        android:horizontalSpacing="0dp"
+        android:stretchMode="columnWidth"
+        android:numColumns="2"
+        android:visibility="visible"
+            >
+        </GridView>
+
+        <ListView
+            android:id="@+id/appList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:visibility="invisible"
+            >
+        </ListView>
+   
+
+</RelativeLayout>
