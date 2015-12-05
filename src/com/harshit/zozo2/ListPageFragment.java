@@ -71,8 +71,8 @@ public class ListPageFragment extends Fragment{
 	               appLabel.setText(apps.get(position).label);
 	               appLabel.setTextColor(Color.parseColor("#FF6600"));
 	                
-//	               TextView appName = (TextView)convertView.findViewById(R.id.item_app_name);
-//	               appName.setText(apps.get(position).name);
+	               TextView appName = (TextView)convertView.findViewById(R.id.item_app_package);
+	               appName.setText(apps.get(position).name);
 //	                
 	               return convertView;
 	           }
